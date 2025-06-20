@@ -1,0 +1,5 @@
+# Curso-Ciencia-de-datos
+
+## Sesion 3 Proyecto
+
+Paso 1. En la terminal de R, ir a la carpeta que se desea en este caso la carpeta del curso
