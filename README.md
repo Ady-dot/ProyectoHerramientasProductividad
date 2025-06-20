@@ -121,7 +121,9 @@ Documenté cada uno de los pasos realizados en la terminal, agregando capturas d
 
 ---
 
-### Paso 15. Crear script `Sesion3_Script.sh`.
+### Paso 15. Creación y ejecución del script `Sesion3_Script.sh`
 
-Se tiene contemplado generar un archivo shell que automatice la creación y carga del reporte. El archivo debe comenzar con `#!/bin/bash` e incluir comandos de Git para hacer push del trabajo final a GitHub.
+Se creó un archivo shell llamado `Sesion3_Script.sh`, cuyo propósito es automatizar la carga del trabajo al repositorio remoto en GitHub. El script incluye comandos para agregar cambios (`git add`), crear un commit (`git commit`) y subir los archivos actualizados (`git push`).  
+Además, se verificó su correcto funcionamiento desde la terminal de RStudio, logrando subir el archivo `README.md` exitosamente.
 
+Este script comienza con la línea `#!/bin/bash`, lo que indica que es ejecutable en entornos Unix/Linux (o Git Bash en Windows). Al ejecutarlo, muestra mensajes informativos y confirma cuando la operación termina correctamente.
